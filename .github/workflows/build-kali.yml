@@ -1,0 +1,29 @@
+name: Build Kali Devcontainer Image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.devcontainer/Dockerfile'
+      - '.github/workflows/build-kali.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .devcontainer
+          file: .devcontainer/Dockerfile
+          push: true
+          tags: ghcr.io/gkally/kali-devcontainer:latest
