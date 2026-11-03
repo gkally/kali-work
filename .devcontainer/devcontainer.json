@@ -1,0 +1,6 @@
+{
+  "name": "Kali Host",
+  "image": "ghcr.io/gkally/kali-devcontainer:latest",
+  "remoteUser": "vscode",
+  "postCreateCommand": "mkdir -p ~/gdrive"
+}
