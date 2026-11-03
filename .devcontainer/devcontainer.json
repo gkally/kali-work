@@ -1,6 +1,0 @@
-{
-  "name": "Kali Host",
-  "build": { "dockerfile": "Dockerfile" },
-  "remoteUser": "vscode",
-  "postCreateCommand": "mkdir -p ~/gdrive"
-}
