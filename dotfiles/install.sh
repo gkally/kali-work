@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-cp "$(dirname "$0")/bashrc" ~/.bashrc
+cp "$(dirname "$0")/bashrc" /home/vscode/.bashrc
 echo "[+] .bashrc restored"
