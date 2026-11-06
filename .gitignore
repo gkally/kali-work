@@ -1,2 +1,16 @@
 .rclone/
 cycle-test.txt
+**/venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+**/.pytest_cache/
+**/node_modules/
+**/target/
+**/dist/
+**/build/
+**/.cache/
+*.tar.gz
+*.zip
+*.log
+dotfiles/rclone.conf
