@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Nikto (Terminal)
+Comment=Web server scanner
+Exec=xfce4-terminal -e "bash -c 'nikto -Help 2>&1 | head -30; bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Security;

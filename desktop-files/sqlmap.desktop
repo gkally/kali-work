@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SQLMap (Terminal)
+Comment=SQL injection tool
+Exec=xfce4-terminal -e "bash -c 'sqlmap -h 2>&1 | head -30; bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Security;

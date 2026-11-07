@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=xfreerdp
+X-GNOME-FullName=FreeRDP Remote Desktop Client
+GenericName=FreeRDP RDP Client
+Comment=Connect to RDP servers for remote work or administration
+Exec=/usr/bin/xfreerdp
+Icon=FreeRDP
+Terminal=true
+Type=Application
+Keywords=remote desktop;rdp;
+Categories=GTK;GNOME;X-GNOME-NetworkSettings;Network;
+StartupNotify=true
+StartupWMClass=xfreerdp

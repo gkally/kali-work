@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SET (Social-Engineer Toolkit)
+Comment=Social engineering attacks
+Exec=xfce4-terminal -e "setoolkit"
+Icon=utilities-terminal
+Terminal=false
+Categories=Security;

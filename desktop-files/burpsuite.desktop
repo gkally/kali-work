@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Burp Suite
+Comment=Web application security testing
+Exec=burpsuite
+Icon=applications-internet
+Terminal=false
+Categories=Security;Network;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Sync to Google Drive
+Comment=Push kali-work to Google Drive
+Exec=xfce4-terminal -e "bash -c 'cd /workspaces/kali-work && ./sync.sh push; bash'"
+Icon=folder-cloud
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MSFVenom (Terminal)
+Comment=Payload generator
+Exec=xfce4-terminal -e "bash -c 'echo "msfvenom -h"; msfvenom -h 2>&1 | head -40; bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Security;
